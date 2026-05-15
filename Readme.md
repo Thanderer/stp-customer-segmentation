@@ -33,5 +33,5 @@ It implements a strict MLOps process model, ensuring reproducibility, scalabilit
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/](https://github.com/)[YOUR-USERNAME]/stp-customer-segmentation.git
+   git clone https://github.comThanderer/stp-customer-segmentation.git
    cd stp-customer-segmentation
