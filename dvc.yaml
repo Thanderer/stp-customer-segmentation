@@ -1,0 +1,14 @@
+stages:
+  data_preparation:
+    cmd: python src/data_prep.py
+    deps:
+      - src/data_prep.py
+      - data/raw/online_retail.csv
+    outs:
+      - data/processed/rfm_data.csv
+
+  model_training:
+    cmd: python src/train.py
+    deps:
+      - src/train.py
+      - data/processed/rfm_data.csv
